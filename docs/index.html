@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Agent Collusion Explorer — Emergent Collusion in Long-Horizon LLM Agent Interaction</title>
+<meta name="description" content="Browse 2,650 two-agent trajectories and 27,100 episodes: how each agent solved its task, what the pair said to each other, how they judged each other, and what they wrote in private afterwards.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Agent Collusion Explorer">
+<meta property="og:description" content="Browse 2,650 two-agent trajectories from Emergent Collusion in Long-Horizon LLM Agent Interaction.">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://huggingface.co">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&display=swap">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="#/" aria-label="Home">
+    <span class="brand-text">Agent&nbsp;Collusion</span>
+  </a>
+
+  <nav class="topnav" aria-label="Sections">
+    <a href="#/" data-nav="home">Overview</a>
+    <a href="#/explore" data-nav="explore">Explore</a>
+  </nav>
+</header>
+
+<main id="main" class="view-host" tabindex="-1"></main>
+
+<div class="toast-host" id="toast-host" role="status" aria-live="polite"></div>
+
+<script type="module" src="assets/js/app.js"></script>
+<noscript><p style="padding:4rem;text-align:center">This viewer needs JavaScript. The underlying data is on <a href="https://huggingface.co/datasets/SALT-NLP/agent-collusion">Hugging Face</a>.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,3 @@
+# Trajectory bundles are already-compressed binaries: never diff them, never
+# touch their bytes for line endings.
+*.json.gz binary
